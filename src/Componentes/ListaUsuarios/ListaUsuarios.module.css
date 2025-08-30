@@ -1,0 +1,65 @@
+.listaUsuariosContainer {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tituloLista {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.userList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mensajeEstado {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #555;
+    padding: 50px;
+    font-weight: 500;
+}
+
+.listaUsuariosContainer {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tituloLista {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.userList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mensajeEstado {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #555;
+    padding: 50px;
+    font-weight: 500;
+}

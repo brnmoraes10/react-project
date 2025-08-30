@@ -1,0 +1,25 @@
+.botonContainer {
+  /* Apariencia y color */
+  background-color: #28a745; /* Un verde para diferenciarlo */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+  /* Espaciado y Tipografía */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  
+  /* Comportamiento e interactividad */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+/* Estilo cuando el cursor está sobre el botón */
+.botonContainer:hover {
+  background-color: #218838;
+}
+/* Estilo cuando el botón está siendo presionado */
+.botonContainer:active {
+  transform: scale(0.98);
+}
